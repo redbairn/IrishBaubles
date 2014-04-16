@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* PayPal */
+
+.PayPalCatalog_Default .left {
+	float:left; 
+	margin-right: 20px; 
+	position:relative;
+	width:200px;
+}
+.PayPalCatalog_Default .right {
+	float:right; 
+}
+
+
+.PayPalCatalog_Default .title {
+	text-align: left;
+	margin: 0
+}
+
+.PayPalCatalog_Default .desc {
+	vertical-align: top;
+	text-align: left;
+	
+}
+
+.imgPriceButtonTd {
+	text-align:center;
+	vertical-align: top
+}
+
+.PayPalCatalog_Default .price {
+	text-align: center;
+	padding:0px;
+	margin:10px;
+}
+.PayPalCatalog_Default .cartbutton {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.PayPalCatalog_Default .productTable {
+	width: 100%;
+	border: 0;
+	border-spacing: 20px
+}
+
+.PayPalCatalog_Default .button {
+	border: 0;
+	padding: 10px
+}
+
+.PayPalCatalog_Default .imgDiv {
+	position:relative;
+	text-align: center;
+	margin:0 auto;
+	padding:0;
+	border: 1px solid;
+	width: 200px
+}
+
+.PayPalCatalog_Default .noImage {
+	position:relative;
+	margin:0;
+	padding:0;
+	height: 200px;
+}
+
+.PayPalCatalog_Default .noImage h3{
+	position:relative;
+	top:90px;
+	height:50px;
+	margin:0;
+	padding:0;
+	border: 0px
+}
+
+
+.PayPalCatalog_Default .image {
+	margin:0;
+	padding:0;
+	width: 200px;
+	border: 0px;
+	display:block;
+}
+
+.PayPalCatalog_Default ol,
+.PayPalCatalog_Default ul{
+    list-style-position: inside;
+}

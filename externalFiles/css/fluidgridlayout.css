@@ -1,0 +1,1019 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	15;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.0326%;
+	padding-left: 1.4836%;
+	padding-right: 1.4836%;
+	
+}
+
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height: 120px;
+	display: block;
+	background-color: #095;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #efdb82;
+	text-align: center;
+}
+#topbody {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+#newsBody {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height: 120px;
+	display: block;
+	background-color: #095;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #efdb82;
+	padding-top: 30px;
+	color: #FFF;
+}
+
+#mainarea {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#content {
+	clear: none;
+	float: left;
+	margin-left: 3.3707%;
+	width: 100%;
+	display: block;
+}
+
+#twitterfeed {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+#galleryspace {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	padding-bottom: 150px;
+}
+
+/********/
+/*Images*/
+/********/
+
+#braybauble {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#edna {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#puppies {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#puppies2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#irishguide {
+	clear: none;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#wedding {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+
+#made {
+	clear: left;
+	float: left;
+	width: 100%;
+	display: block;
+	text-align:center;
+	margin: 5px;
+}
+
+#bray {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#cork {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#dublin {
+	clear: none;
+	float: left;
+	margin-left: 0%;
+	width: 100%;
+	display: block;
+}
+
+#glendalough {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+
+#greystones {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#multipack {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#wicklow {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/****************/
+/* Form styles  */
+/****************/
+
+form	{
+	width: 100%;
+	text-align:center;
+}
+
+label	{
+	float:left;
+	text-align:left;
+	font-weight:bold;
+	width:100%;
+}
+
+.row input	{
+	float:left;
+	width:100%;
+}
+
+.row	{
+	margin-bottom:2%;
+}
+
+textarea { 
+	width:100%;
+	float:left;
+}
+
+#buttonsub {
+	float: left;
+	width: 60px;
+}
+
+
+/*Index page navigation_positions_and_image*/
+#homenav {
+	clear: both;
+	float: left;
+	margin-left: 25.8426%;
+	width: 48.3146%;
+}
+
+#home {
+	background-image: url(../../images/Buttons/button%20pngs/Home-button.png);
+	text-indent: -9999px; /* Hides the anchor text behind the image  */
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+
+
+#shopnav {
+	clear: both;
+	float: left;
+	margin-left: 25.8426%;
+	width: 48.3146%;
+}
+
+#shop {
+	background-image: url(../../images/Buttons/button%20pngs/shop.png);
+	text-indent: -9999px;
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+
+#gallerynav {
+	clear: both;
+	float: left;
+	margin-left: 25.8426%;
+	width: 48.3146%;
+}
+
+#gallery {
+	background-image: url(../../images/Buttons/button%20pngs/gallery.png);
+	text-indent: -9999px;
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+
+#newsnav {
+	clear: both;
+	float: left;
+	margin-left: 25.8426%;
+	width: 48.3146%;
+}
+
+#news {
+	background-image: url(../../images/Buttons/button%20pngs/news.png);
+	text-indent: -9999px;
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+
+#businessnav {
+	clear: both;
+	float: left;
+	margin-left: 25.8426%;
+	width: 48.3146%;
+}
+
+#business {
+	background-image: url(../../images/Buttons/button%20pngs/business.png);
+	text-indent: -9999px;
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+
+#eventsnav {
+	clear: both;
+	float: left;
+	margin-left: 25.8426%;
+	width: 48.3146%;
+}
+
+#events {
+	background-image: url(../../images/Buttons/button%20pngs/events.png);
+	text-indent: -9999px;
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+
+#facebooknav {
+	clear: both;
+	float: left;
+	margin-left: 25.8426%;
+	width: 48.3146%;
+}
+
+#facebook {
+	background-image: url(../../images/Buttons/button%20pngs/facebook.png);
+	text-indent: -9999px;
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+
+#twitternav {
+	clear: both;
+	float: left;
+	margin-left: 25.8426%;
+	width: 48.3146%;
+}
+
+#twitter {
+	background-image: url(../../images/Buttons/button%20pngs/twitter.png);
+	text-indent: -9999px;
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+
+#contactnav {
+	clear: both;
+	float: left;
+	margin-left: 25.8426%;
+	width: 48.3146%;
+}
+
+#contact {
+	background-image: url(../../images/Buttons/button%20pngs/contact.png);
+	text-indent: -9999px;
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 91.4836%;
+	padding-left: 0.7581%;
+	padding-right: 0.7581%;
+}
+
+
+#topbody {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 74.5856%;
+	display: block;
+}
+
+#newsBody {
+	clear: both;
+	float: left;
+	margin-left: 25.4143%;
+	width: 49.1712%;
+	display: block;
+	text-align: center;
+}
+
+#mainarea {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:100%;
+	min-height:100%;
+	display: block;
+}
+
+#content {
+	clear: none;
+	float: left;
+	margin-left: 1.6574%;
+	width: 100%;
+	display: block;
+}
+
+#twitterfeed {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+#galleryspace {
+	clear: both;
+	float: left;
+	margin-left: 25.4143%;
+	width: 49.1712%;
+	display: block;
+}
+
+#edna {
+	clear: none;
+	float: left;
+	margin-left: 14.3646%;
+	width: 87.2928%;
+	display: block;
+}
+/********/
+/*Images*/
+/********/
+#braybauble {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#edna {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
+
+#puppies {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 36.464%;
+	display: block;
+}
+
+#puppies2 {
+	clear: none;
+	float: left;
+	margin-left: 14.3646%;
+	width: 36.464%;
+	display: block;
+}
+
+#irishguide {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#wedding {
+	clear: both;
+	float: left;
+	margin-left: 25.4143%;
+	width: 49.1712%;
+	display: block;
+}
+
+#made {
+	clear: left;
+	float: left;
+	margin-left: 0;
+	width: 49.1712%;
+	display: block;
+	text-align: center;
+	margin: 5px;
+}
+
+#bray {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 74.5856%;
+	display: block;
+}
+
+#cork {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 74.5856%;
+	display: block;
+}
+
+#dublin {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 74.5856%;
+	display: block;
+}
+
+#glendalough {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 74.5856%;
+	display: block;
+}
+
+#greystones {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 74.5856%;
+	display: block;
+}
+
+#multipack {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 74.5856%;
+	display: block;
+}
+
+#wicklow {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 74.5856%;
+	display: block;
+}
+
+/****************/
+/* Form styles  */
+/****************/
+
+form	{
+	width: 100%;
+	text-align: center;
+}
+
+label	{
+	float:left;
+	text-align:left;
+	font-weight:bold;
+	width:100%;
+}
+
+.row input	{
+	float:left;
+	width:80%;
+}
+
+.row	{
+	margin-bottom:2%;
+}
+
+textarea { 
+	width:80%;
+	float:left;
+}
+
+#buttonsub {
+	float: left;
+	width: 20%;
+}
+
+
+/*Index page navigation_positions_and_image*/
+#homenav {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 23.7569%;
+}
+
+#shopnav {
+	clear: none;
+	float: left;
+	margin-left: 27.0718%;
+	width: 23.7569%;
+}
+
+#gallerynav {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 23.7569%;
+}
+
+#newsnav {
+	clear: none;
+	float: left;
+	margin-left: 27.0718%;
+	width: 23.7569%;
+}
+
+#businessnav {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 23.7569%;
+}
+
+#eventsnav {
+	clear: none;
+	float: left;
+	margin-left: 27.0718%;
+	width: 23.7569%;
+}
+
+#facebooknav {
+	clear: both;
+	float: left;
+	margin-left: 12.7071%;
+	width: 23.7569%;
+}
+
+#twitternav {
+	clear: none;
+	float: left;
+	margin-left: 27.0718%;
+	width: 23.7569%;
+}
+
+#contactnav {
+	clear: both;
+	float: left;
+	margin-left: 38.1215%;
+	width: 23.7569%;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {	
+
+.gridContainer {
+	width: 89.0217%;
+	height:	auto;
+	max-width: 1232px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+}
+
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height: 120px;
+	display: block;
+	background-color: #009955;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #efdb82;
+	text-align: center; 
+}
+#topbody {
+	clear: both;
+	float: left;
+	margin-left: 16.8498%;
+	width: 66.3003%;
+	display: block;
+}
+
+
+#newsBody {
+	clear: both;
+	float: none;
+	margin-left: 33.6996%;
+	width: 32.6007%;
+	display: block;
+	text-align: center;
+}
+
+#mainarea {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: #CCC;	
+}
+
+#twitterfeed {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+#galleryspace {
+	clear: both;
+	margin-left: 25.2747%;
+	width: 49.4505%;
+	display: block;
+	height: auto;
+}
+
+#here{
+	text-align:left;
+}
+
+/********/
+/*Images*/
+/********/
+
+#braybauble {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+
+#edna {
+	clear: both;
+	float: left;
+	margin-left: 8.4249%;
+	width: 83.1501%;
+	display: block;
+	text-align: center;
+}
+
+#puppies {
+	clear: both;
+	border: thin solid #666;
+	float: left;
+	margin-left: 8.4249%;
+	width: 24.1758%;
+	display: block;
+	background-color: #999;
+	
+}
+
+#puppies2 {
+	clear: right;
+	border: thin solid #666;
+	float: right;
+	margin-right: 8.4249%;
+	width: 24.1758%;
+	display: block;
+	background-color: #999;
+	
+}
+
+#irishguide {
+	clear: both;
+	float: none;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #999;
+	text-align: center;
+}
+
+#wedding {
+	clear: both;
+	float: left;
+	margin-left: 25.2747%;
+	width: 49.4505%;
+	display: block;
+	background-color: #999;
+	text-align: center;
+}
+
+#made {
+	clear: left;
+	float: left;
+	width: 32.6007%;
+	display: block;
+	text-align: center;
+	margin: 5px;
+}
+
+#bray {
+	clear: both;
+	float: left;
+	margin-left: 25.2747%;
+	width: 49.4505%;
+	display: block;
+}
+
+#cork {
+	clear: both;
+	float: left;
+	margin-left: 25.2747%;
+	width: 49.4505%;
+	display: block;
+}
+
+
+#dublin {
+	clear: both;
+	float: left;
+	margin-left: 25.2747%;
+	width: 49.4505%;
+	display: block;
+}
+
+#glendalough {
+	clear: both;
+	float: left;
+	margin-left: 25.2747%;
+	width: 49.4505%;
+	display: block;
+}
+
+
+#greystones {
+	clear: both;
+	float: left;
+	margin-left: 25.2747%;
+	width: 49.4505%;
+	display: block;
+}
+
+#multipack {
+	clear: both;
+	float: left;
+	margin-left: 25.2747%;
+	width: 49.4505%;
+	display: block;
+}
+
+
+#wicklow {
+	clear: both;
+	float: left;
+	margin-left: 25.2747%;
+	width: 49.4505%;
+	display: block;
+}
+
+/****************/
+/* Form styles  */
+/****************/
+
+form	{
+	width: 100%;
+	text-align: center;
+}
+
+label	{
+	float:left;
+	text-align:left;
+	font-weight:bold;
+	width:80%;
+}
+
+.row input	{
+	float:left;
+	width:40%;
+}
+
+.row	{
+	margin-bottom:2%;
+}
+
+textarea { 
+	width:40%;
+	float:left;
+}
+
+#buttonsub {
+	float: left;
+	width: 20%;
+}
+
+
+/* Index Navigation layout. Div sets pos and Anchor ID contains img  */
+
+#homenav {
+	clear: both;
+	float: left;
+	margin-left: 16.8498%;
+	width: 15.7509%;
+}
+
+#shopnav {
+	clear: none;
+	float: left;
+	margin-left: 9.5238%;
+	width: 15.7509%;
+}
+
+#gallerynav {
+	clear: none;
+	float: left;
+	margin-left: 9.5238%;
+	width: 15.7509%;
+}
+
+#newsnav {
+	clear: both;
+	float: left;
+	margin-left: 16.8498%;
+	width: 15.7509%;
+}
+
+#businessnav {
+	clear: none;
+	float: left;
+	margin-left: 9.5238%;
+	width: 15.7509%;
+}
+
+#eventsnav {
+	clear: none;
+	float: left;
+	margin-left: 9.5238%;
+	width: 15.7509%;
+}
+
+#facebooknav {
+	clear: both;
+	float: left;
+	margin-left: 16.8498%;
+	width: 15.7509%;
+}
+
+#twitternav {
+	clear: none;
+	float: left;
+	margin-left: 9.5238%;
+	width: 15.7509%;
+}
+
+#contactnav {
+	clear: none;
+	float: left;
+	margin-left: 9.5238%;
+	width: 15.7509%;
+}
+}
